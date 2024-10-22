@@ -1,0 +1,38 @@
+{
+  "name": "kimi-hooks",
+  "version": "0.0.2",
+  "description": "Kimi Hooks",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dv-hoang/kimi-mono.git",
+    "directory": "packages/kimi-hooks"
+  },
+  "keywords": [
+    "Kimi",
+    "UI",
+    "hook"
+  ],
+  "author": "KimiStores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dv-hoang/kimi-mono/issues"
+  },
+  "homepage": "https://github.com/dv-hoang/kimi-mono#readme",
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.1.2",
+    "framer-motion": "^11.11.1",
+    "react": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "typescript": "^5.6.2"
+  }
+}

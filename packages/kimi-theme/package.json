@@ -1,0 +1,48 @@
+{
+  "name": "kimi-theme",
+  "version": "0.0.5",
+  "description": "Kimi Theme",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dv-hoang/kimi-mono.git",
+    "directory": "packages/kimi-theme"
+  },
+  "keywords": [
+    "Kimi",
+    "UI",
+    "Theme"
+  ],
+  "author": "KimiStores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dv-hoang/kimi-mono/issues"
+  },
+  "homepage": "https://github.com/dv-hoang/kimi-mono#readme",
+  "dependencies": {
+    "@emotion/cache": "^11.13.1",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@emotion/utils": "^1.4.1",
+    "@mui/lab": "^6.0.0-beta.11",
+    "@mui/material": "^6.1.3",
+    "@mui/x-data-grid": "^7.19.0",
+    "@mui/x-date-pickers": "^7.18.0",
+    "@mui/x-tree-view": "^7.20.0",
+    "dayjs": "^1.11.13",
+    "i18next": "^23.15.1",
+    "i18next-browser-languagedetector": "^8.0.0",
+    "i18next-resources-to-backend": "^1.2.1",
+    "kimi-utils": "^0.0.1",
+    "react-i18next": "^15.0.2",
+    "stylis-plugin-rtl": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "typescript": "^5.6.2"
+  }
+}

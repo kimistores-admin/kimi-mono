@@ -1,0 +1,39 @@
+{
+  "name": "kimi-locales",
+  "version": "0.0.1",
+  "description": "Kimi Locales",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dv-hoang/kimi-mono.git",
+    "directory": "packages/kimi-locales"
+  },
+  "keywords": [
+    "Kimi",
+    "UI",
+    "locales"
+  ],
+  "author": "KimiStores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dv-hoang/kimi-mono/issues"
+  },
+  "homepage": "https://github.com/dv-hoang/kimi-mono#readme",
+  "dependencies": {
+    "@mui/x-data-grid": "^7.19.0",
+    "@mui/x-date-pickers": "^7.18.0",
+    "dayjs": "^1.11.13",
+    "i18next": "^23.15.1",
+    "i18next-browser-languagedetector": "^8.0.0",
+    "i18next-resources-to-backend": "^1.2.1",
+    "react-i18next": "^15.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "typescript": "^5.6.2"
+  }
+}

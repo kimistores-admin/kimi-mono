@@ -1,0 +1,34 @@
+{
+  "name": "kimi-utils",
+  "version": "0.0.1",
+  "description": "Kimi Utils",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dv-hoang/kimi-mono.git",
+    "directory": "packages/kimi-utils"
+  },
+  "keywords": [
+    "Kimi",
+    "UI",
+    "utils"
+  ],
+  "author": "KimiStores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dv-hoang/kimi-mono/issues"
+  },
+  "homepage": "https://github.com/dv-hoang/kimi-mono#readme",
+  "dependencies": {
+    "kimi-locales": "workspace:^",
+    "dayjs": "^1.11.13"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "typescript": "^5.6.2"
+  }
+}
